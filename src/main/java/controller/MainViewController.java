@@ -176,10 +176,10 @@ public class MainViewController extends BaseController implements Initializable 
 
     private void initView() {
 
-        Tab tab1 = new Tab("歌曲列表", LoadUtil.loadFXML("fxml/items/music_table_view.fxml"));
-        Tab tab2 = new Tab("排行榜", LoadUtil.loadFXML("fxml/items/rank_music_view.fxml"));
-        Tab tab3 = new Tab(" 歌手 ", LoadUtil.loadFXML("fxml/items/singer_view.fxml"));
-        Tab tab4 = new Tab(" 歌单 ", LoadUtil.loadFXML("fxml/items/song_list_view.fxml"));
+        Tab tab1 = new Tab("Song List", LoadUtil.loadFXML("fxml/items/music_table_view.fxml"));
+        Tab tab2 = new Tab("Ranking List", LoadUtil.loadFXML("fxml/items/rank_music_view.fxml"));
+        Tab tab3 = new Tab(" Singer ", LoadUtil.loadFXML("fxml/items/singer_view.fxml"));
+        Tab tab4 = new Tab(" Playlist ", LoadUtil.loadFXML("fxml/items/song_list_view.fxml"));
         centerTabPane.getTabs().addAll(tab1, tab2, tab3, tab4);
         centerPaneList = splitPane.getItems();
 

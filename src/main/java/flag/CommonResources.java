@@ -101,7 +101,7 @@ public class CommonResources {
                     listMembers.add(new SongListMember(i+1, currMusicList.get(i)));
                 });
             }
-            System.out.println("歌曲总数：" + listMembers.size());
+            System.out.println("Total Number of Songs：" + listMembers.size());
             return listMembers;
         }//
 
