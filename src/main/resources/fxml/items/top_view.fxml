@@ -26,7 +26,7 @@
                <HBox.margin>
                   <Insets bottom="0.2" left="2.0" right="1.0" top="0.2" />
                </HBox.margin></ImageView>
-             <Text fill="#ffffff" fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="随心听-音乐播放器">
+             <Text fill="#ffffff" fontSmoothingType="LCD" strokeType="OUTSIDE" strokeWidth="0.0" text="Rhythm Music Player">
                <font>
                   <Font name="Microsoft YaHei Light" size="13.0" />
                </font></Text>
