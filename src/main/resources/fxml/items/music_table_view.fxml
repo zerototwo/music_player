@@ -39,7 +39,7 @@
        </AnchorPane>
    </center>
    <top>
-       <TitledPane style="-fx-background-color: #b7b7b7;" text="播放列表信息" underline="true" BorderPane.alignment="CENTER">
+       <TitledPane style="-fx-background-color: #b7b7b7;" text="Playlist Information" underline="true" BorderPane.alignment="CENTER">
            <AnchorPane prefHeight="150.0" style="-fx-background-color: #cfcfcf;">
                <padding>
                    <Insets left="5.0" right="5.0" top="5.0" />
@@ -53,9 +53,9 @@
                        <Font size="13.0" />
                    </font>
                </Label>
-               <Label layoutX="176.0" layoutY="52.0" text="介绍：" />
-               <JFXButton fx:id="btnPlay" layoutX="494.0" layoutY="10.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="71.0" style="-fx-background-color:#b5b5b5; -fx-pref-width: 45;" text="播放" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="5.0" />
-               <JFXTextArea fx:id="jfxTextAreaIntro" editable="false" focusColor="#ffffff00" layoutX="227.0" layoutY="61.0" prefHeight="98.0" prefWidth="348.0" style="-fx-border-color: gray; -fx-border-radius: 10;" text="那些喜欢听到循环播放的歌" unFocusColor="#ffffff00" AnchorPane.bottomAnchor="12.0" AnchorPane.leftAnchor="210.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="50.0">
+               <Label layoutX="176.0" layoutY="52.0" text="intro：" />
+               <JFXButton fx:id="btnPlay" layoutX="494.0" layoutY="10.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="71.0" style="-fx-background-color:#b5b5b5; -fx-pref-width: 45;" text="Play" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="5.0" />
+               <JFXTextArea fx:id="jfxTextAreaIntro" editable="false" focusColor="#ffffff00" layoutX="227.0" layoutY="61.0" prefHeight="98.0" prefWidth="348.0" style="-fx-border-color: gray; -fx-border-radius: 10;" text="Songs that people like to hear on repeat”" unFocusColor="#ffffff00" AnchorPane.bottomAnchor="12.0" AnchorPane.leftAnchor="210.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="50.0">
                    <padding>
                        <Insets bottom="10.0" left="10.0" right="3.0" top="10.0" />
                    </padding>
@@ -68,7 +68,7 @@
                        <Font size="13.0" />
                    </font>
                </Label>
-               <Label layoutX="327.0" layoutY="13.0" text="歌曲数量：" textOverrun="CLIP" AnchorPane.rightAnchor="150.0" AnchorPane.topAnchor="8.0">
+               <Label layoutX="327.0" layoutY="13.0" text="Song Count：" textOverrun="CLIP" AnchorPane.rightAnchor="150.0" AnchorPane.topAnchor="8.0">
                    <font>
                        <Font size="13.0" />
                    </font>

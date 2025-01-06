@@ -104,7 +104,7 @@ public class MainViewController extends BaseController implements Initializable 
         });
 
         btnClose.setOnAction(ae -> {
-            Alert alert = new Alert(Alert.AlertType.CONFIRMATION, "要退出了吗？", ButtonType.OK, ButtonType.CANCEL);
+            Alert alert = new Alert(Alert.AlertType.CONFIRMATION, "Are you quitting？", ButtonType.OK, ButtonType.CANCEL);
             Optional<ButtonType> buttonType = alert.showAndWait();
             if (buttonType.get().equals(ButtonType.OK)) {
                 Platform.exit();
